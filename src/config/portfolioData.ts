@@ -124,30 +124,30 @@ export const PORTFOLIO_DATA: DeveloperProfile = {
       description:
         'A modern and easy-to-use flashlight application designed to provide convenient lighting tools in one place.',
       // REAL APPLICATION ASSETS (Uploaded by Developer)
-      iconImage: '/assets/aistudio/1794013191275_163fd5d8.jpg',
-      bannerImage: '/assets/aistudio/Screenshot_20261107-135735_e3c690e0.png',
+      iconImage: `${import.meta.env.BASE_URL}assets/aistudio/1794013191275_163fd5d8.jpg`,
+      bannerImage: `${import.meta.env.BASE_URL}assets/aistudio/Screenshot_20261107-135735_e3c690e0.png`,
       screenshots: [
         {
           id: 'torch-active',
-          url: '/assets/aistudio/Screenshot_20261107-135735_e3c690e0.png',
+          url: `${import.meta.env.BASE_URL}assets/aistudio/Screenshot_20261107-135735_e3c690e0.png`,
           title: 'Active LED Torch Mode',
           description: 'Camera LED hardware engaged with full optical beam, active duration timer, and direct power toggles.',
         },
         {
           id: 'torch-standby',
-          url: '/assets/aistudio/Screenshot_20261107-135722_35f6842a.png',
+          url: `${import.meta.env.BASE_URL}assets/aistudio/Screenshot_20261107-135722_35f6842a.png`,
           title: 'Standby & Battery Monitor',
           description: 'Power standby state displaying real-time battery status (77%), instant power triggers, and lantern mode.',
         },
         {
           id: 'cloud-settings',
-          url: '/assets/aistudio/Screenshot_20261107-135730_7ea90ab1.png',
+          url: `${import.meta.env.BASE_URL}assets/aistudio/Screenshot_20261107-135730_7ea90ab1.png`,
           title: 'Cloud Sync & Haptic Settings',
           description: 'Account sync panel, configuration bottom sheet, and tactile haptic vibration toggle for physical feedback.',
         },
         {
           id: 'hardware-diagnostics',
-          url: '/assets/aistudio/Screenshot_20261107-135727_3f1081a9.png',
+          url: `${import.meta.env.BASE_URL}assets/aistudio/Screenshot_20261107-135727_3f1081a9.png`,
           title: 'Hardware Diagnostics & API',
           description: 'Native Android CameraManager & TorchCallback API diagnostics, permission verification, and flash status.',
         },
